@@ -1,0 +1,68 @@
+@media(max-width: 69em) {
+  html {
+    font-size: 56.25%
+  }
+}
+
+@media(max-width: 61em) {
+  html {
+    font-size: 50%
+  }
+}
+
+@media(max-width: 52em) {
+  html {
+    font-size: 43.75%
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .pricing {
+    gap: 2.4rem;
+  }
+}
+
+@media(max-width: 43em) {
+  .pricing-payment span {
+    font-size: 1.6rem;
+  }
+
+  .link:link,
+  .link:visited {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 28em) {
+
+  .section-pricing {
+    padding: 4.8rem;
+  }
+
+  .pricing-title {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 2.4rem;
+  }
+
+  .pricing-text-link {
+    padding: 0;
+  }
+
+  .pricing {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+
+  .pricing-basic,
+  .pricing-premium,
+  .pricing-enterprise {
+    width: 70%;
+    justify-self: center;
+  }
+}
